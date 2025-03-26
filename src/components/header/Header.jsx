@@ -9,7 +9,7 @@ import QueroDoar from '../../pages/querodoar/QueroDoar'
 import logoLivro from '../../assets/logo.png'
 import lupa from '../../assets/pesquisar.png'
 
-//style
+
 import s from './header.module.scss'
 
 export default function Header(){
