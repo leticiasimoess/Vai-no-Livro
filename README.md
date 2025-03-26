@@ -1,8 +1,32 @@
-# React + Vite
+# 📚  Vai no Livro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💻 Projeto desenvolvido como desafio didático para aplicar na prática os conteúdos de React.js e Sass do curso Full Stack da escola Vai na Web.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Acesse o projeto 👉 vainolivro.vercel.app
+
+🚀 Tecnologias utilizadas
+
+✅ ReactJS
+
+✅ Vite (para build e desenvolvimento)
+
+✅ SASS
+
+✅ Vercel (Deploy)
+
+🎨 Layout
+O design do projeto é minimalista, responsivo e pensado para uma boa experiência do usuário.
+
+# 🛠️ Como rodar o projeto localmente
+## Clone o repositório
+- git clone https://github.com/seu-usuario/vainolivro.git
+
+## Acesse a pasta do projeto
+- cd vainolivro
+
+## Instale as dependências
+- npm install
+
+## Execute o projeto
+- npm run dev
