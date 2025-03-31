@@ -11,14 +11,16 @@ header {
     width: 20%;
     justify-content: space-around;
     align-items: center;
+    margin-left: 15px;
 
     img {
         width: 20%;
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 22px;
         color: #FFF;
+        margin-left: 10px;
     }
 }
 
@@ -41,12 +43,22 @@ header {
 .barraDePesquisa {
     border: solid #FFF;
     border-radius: 20px;
-    margin-right: 1%;
+    margin-right: 6%;
     width: 20%;
     height: 6vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    img{
+        display: flex;
+        width: 90%;
+        height: 3vh;
+        margin-left: 80%;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
 
     input {
         background-color: transparent;
@@ -56,7 +68,7 @@ header {
 
         &::placeholder{
             color: #FFF;
-            font-size: 20px;
+            font-size: 14px;
         }
     }
 
