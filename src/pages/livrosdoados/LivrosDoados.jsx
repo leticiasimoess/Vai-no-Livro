@@ -8,18 +8,26 @@ import s from "./livrosdoados.module.scss";
 export default function LivrosDoados() {
   const [livros, setLivros] = useState([]);
 
-  // Função para buscar os livros da API
+  // Função para buscar os livros da API.
+  //o useeffect funciona como um ajudante que faz algo automaticamente.
   useEffect(() => {
+    //O async significa que essa função vai esperar uma resposta antes de continuar.
     const getLivros = async () => {
+   // o try significa "tentar fazer algo".
       try {
+
         const resposta = await axios.get("https://api-vai-no-livro.onrender.com/livros");
+        //O await diz para o código esperar até que os livros cheguem.
+        //O axios.get() é como um carteiro que vai buscar os livros para a gente.
+
         setLivros(resposta.data); // Atualiza o estado com os livros da API
+        //Se algo der errado o codiggo vai vim aqui
       } catch (error) {
         console.error("Erro ao buscar livros:", error);
       }
     };
     getLivros();
-  }, []);
+  }, []);//O [] no final diz que essa busca só vai acontecer uma vez, quando o site abrir.
 
   return (
     <section className={s.livrosDoadosSection}>
